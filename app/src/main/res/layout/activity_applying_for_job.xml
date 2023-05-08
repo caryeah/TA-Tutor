@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApplyingForJob">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/Job_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Job You Applying For" />
+
+        <EditText
+            android:id="@+id/name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/surname_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Surname" />
+
+        <EditText
+            android:id="@+id/student_number_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Number" />
+
+        <EditText
+            android:id="@+id/cellphone_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cellphone Number" />
+        <Button
+            android:id="@+id/upload_cv_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload CV" />
+
+        <Button
+            android:id="@+id/send_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+        <Button
+            android:id="@+id/Back_To_Home_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back To Home Page" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
